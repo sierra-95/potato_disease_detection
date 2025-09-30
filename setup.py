@@ -24,6 +24,8 @@ setup(
     },
     entry_points={
         'console_scripts': [
+            'inference_engine = potato_disease_detection.inference_engine:main',
+            'image_publisher = potato_disease_detection.image_publisher:main',
         ],
     },
 )
