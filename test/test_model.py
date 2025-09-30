@@ -4,8 +4,8 @@ from torchvision import models, transforms
 from PIL import Image
 import os
 
-model_path = "/home/sierra-95/Documents/potato_disease_detection/models/model.pth"
-image_path = "/home/sierra-95/Documents/potato_disease_detection/potato_disease_detection/images/late.jpg"
+model_path = "/home/sierra-95/Documents/potato_disease_detection/models/model_v2.pth"
+image_path = "/home/sierra-95/Documents/potato_disease_detection/potato_disease_detection/images/early.png"
 
 classes = ["Early_blight","Healthy","Late_blight"]
 
