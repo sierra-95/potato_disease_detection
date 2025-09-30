@@ -4,8 +4,8 @@ import random
 from pathlib import Path
 
 source_dir = Path("~/Downloads/archive/PlantVillage/Potato___Late_blight").expanduser()
-train_dir  = Path("/home/sierra-95/Documents/potato_disease_detection/dataset/potato/train/Late_blight").expanduser()
-val_dir    = Path("/home/sierra-95/Documents/potato_disease_detection/dataset/potato/val/Late_blight").expanduser()
+train_dir  = Path("/home/sierra-95/Documents/potato_disease_detection/dataset/train/Late_blight").expanduser()
+val_dir    = Path("/home/sierra-95/Documents/potato_disease_detection/dataset/val/Late_blight").expanduser()
 
 split_ratio = 0.8   # 80% train, 20% val
 

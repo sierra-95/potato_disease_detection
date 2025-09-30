@@ -3,8 +3,8 @@ import torch.nn as nn
 from torch.utils.data import DataLoader
 from torchvision import datasets, transforms, models
 
-train_dir = "potato/train"
-val_dir   = "potato/val"
+train_dir = "dataset/train"
+val_dir   = "dataset/val"
 num_classes = 3   # Early_blight, Late_blight, Healthy
 batch_size = 32
 epochs = 10
@@ -44,5 +44,5 @@ for epoch in range(epochs):
         total_loss += loss.item()
     print(f"Epoch [{epoch+1}/{epochs}], Loss: {total_loss/len(train_loader):.4f}")
 
-torch.save(model.state_dict(), "../models/model_v1.pth")
+torch.save(model.state_dict(), "models/model_v1.pth")
 print("model_v1.pth saved")
