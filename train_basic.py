@@ -44,5 +44,5 @@ for epoch in range(epochs):
         total_loss += loss.item()
     print(f"Epoch [{epoch+1}/{epochs}], Loss: {total_loss/len(train_loader):.4f}")
 
-torch.save(model.state_dict(), "models/model.pth")
-print("model.pth saved")
+torch.save(model.state_dict(), "models/model_v1.pth")
+print("model_v1.pth saved")
