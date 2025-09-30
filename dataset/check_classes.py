@@ -1,6 +1,6 @@
 from torchvision import datasets, transforms
 
-train_dir = "/home/sierra-95/Documents/potato_disease_detection/dataset/train"
+train_dir = "/home/sierra-95/Documents/potato_disease_detection/dataset/potato/train"
 
 # Dummy transform just to initialize ImageFolder
 transform = transforms.Compose([transforms.ToTensor()])

@@ -4,8 +4,8 @@ from torch.utils.data import DataLoader, WeightedRandomSampler
 from torchvision import datasets, transforms, models
 import numpy as np
 
-train_dir = "dataset/train"
-val_dir   = "dataset/val"
+train_dir = "potato/train"
+val_dir   = "potato/val"
 num_classes = 3  
 batch_size = 32
 epochs = 20  
@@ -73,5 +73,5 @@ for epoch in range(epochs):
     print(f"Epoch [{epoch+1}/{epochs}], Loss: {total_loss/len(train_loader):.4f}")
 
 # ----- Save Model -----
-torch.save(model.state_dict(), "models/model_v2.pth")
+torch.save(model.state_dict(), "../models/model_v2.pth")
 print("model_v2.pth saved")
