@@ -7,7 +7,7 @@ import os
 model_path = "/home/sierra-95/Documents/potato_disease_detection/models/model.pth"
 image_path = "/home/sierra-95/Documents/potato_disease_detection/potato_disease_detection/images/late.jpg"
 
-classes = ["Early_blight","Healthy","Late_Blight"]
+classes = ["Early_blight","Healthy","Late_blight"]
 
 # ----- Image Transform -----
 transform = transforms.Compose([
