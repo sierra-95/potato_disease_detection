@@ -10,6 +10,7 @@ setup(
         ('share/ament_index/resource_index/packages',
             ['resource/' + package_name]),
         ('share/' + package_name, ['package.xml']),
+        ('share/' + package_name + '/launch', ['launch/model.launch.py']),
     ],
     install_requires=['setuptools'],
     zip_safe=True,
@@ -26,6 +27,8 @@ setup(
         'console_scripts': [
             'inference_engine = potato_disease_detection.inference_engine:main',
             'image_publisher = potato_disease_detection.image_publisher:main',
+            'bridge = potato_disease_detection.bridge:main',
+            'camera_viewer = potato_disease_detection.camera_viewer:main',
         ],
     },
 )
