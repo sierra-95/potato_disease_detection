@@ -98,7 +98,3 @@ The launch file starts:
   Displays live camera feed using OpenCV cv2.imshow.
 * **Inference engine**
   Subscribes to `/potato_image`, runs inference using `model_v2.pth`, and publishes results to `/inference_result`.
-
-
-
-Built with ❤️ by **Sierra-95**
