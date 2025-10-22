@@ -22,7 +22,8 @@ cd potato_disease_detection
 ```
 
 ## Dataset Preparation
-If you do not intend to train your own model, skip to Model testing
+
+⚠️ **Warning:** <span style="color:orange">If you do not intend to train your own model, skip to **Model testing**.</span>
 
 1. **Download the Dataset**  
    Get the dataset from [Kaggle – Plant Disease](https://www.kaggle.com/datasets/emmarex/plantdisease).
