@@ -29,6 +29,7 @@ setup(
             'image_publisher = potato_disease_detection.image_publisher:main',
             'bridge = potato_disease_detection.bridge:main',
             'camera_viewer = potato_disease_detection.camera_viewer:main',
+            'camera_publisher = potato_disease_detection.camera_publisher:main',
         ],
     },
 )
