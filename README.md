@@ -1,6 +1,6 @@
 
 # Potato Disease Detection 
-
+![Late Blight](./potato_disease_detection/images/late.jpg)
 This project contains two main parts:
 
 1. **Model Development (PyTorch)**
@@ -84,11 +84,13 @@ ros2 run potato_disease_detection camera_publisher
 #if no camera  - this publishes an image to /potato_image
 ros2 run potato_disease_detection image_publisher
 ```
+![Publisher](./images/publisher.png)
 #### Subscribers
 
 ```bash
 ros2 launch potato_disease_detection model.launch.py
 ```
+![Subscriber](./images//subscriber.png)
 
 The launch file starts:
 
